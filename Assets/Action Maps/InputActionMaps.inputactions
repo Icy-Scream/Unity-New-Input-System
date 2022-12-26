@@ -1,0 +1,54 @@
+{
+    "name": "InputActionMaps",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "4c6d7842-9629-4e43-9adc-c302cf96bb6f",
+            "actions": [
+                {
+                    "name": "Slider",
+                    "type": "Button",
+                    "id": "d1d79634-f33b-49aa-bbee-6967f61e4046",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ResetSlider",
+                    "type": "Button",
+                    "id": "56821f1b-7936-4d19-a623-7e8b88f9a967",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "107a5644-fbb9-4864-acd6-a17ef0027606",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Slider",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "0f2b7506-6669-48f3-a703-b8810289b9bc",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ResetSlider",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
