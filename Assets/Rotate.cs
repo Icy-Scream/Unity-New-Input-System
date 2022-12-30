@@ -35,7 +35,7 @@ public class Rotate : MonoBehaviour
     {
         var value = _input.Player.Rotate.ReadValue<Vector2>();
         
-        transform.Rotate(Vector3.up * 10f * value.x * Time.deltaTime);
+        transform.Rotate(Vector3.up * 50f * value.x * Time.deltaTime);
     }
 
     private void Drive()
